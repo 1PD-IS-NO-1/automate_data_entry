@@ -55,6 +55,10 @@ tk==0.1.0
 tqdm==4.66.5
 typing_extensions==4.12.2
 tzdata==2024.1
+gunicorn
+Flask
+flask-asgi
+uvicorn
 uritemplate==4.1.1
 urllib3==2.2.2
 wheel==0.44.0
