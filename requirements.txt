@@ -59,4 +59,5 @@ uritemplate==4.1.1
 urllib3==2.2.2
 wheel==0.44.0
 wrapt==1.16.0
-
+uvicorn
+Flask
