@@ -43,7 +43,7 @@ class InvoiceProcessor:
             raise ValueError("Unsupported file type")
 
         # Configure Gemini API
-        GOOGLE_GEMINI_API = "AIzaSyCF-jMEoZr2ji5kmJvYg4HQGWG--Bq8n84"
+        GOOGLE_GEMINI_API = "paste_your_api_key"
         genai.configure(api_key=GOOGLE_GEMINI_API)
         model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
